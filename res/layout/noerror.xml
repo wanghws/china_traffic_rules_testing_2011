@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#e6e6e6" >
+    
+    <RelativeLayout
+        android:id="@+id/myerror_notitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/logo">
+
+        <Button
+            android:id="@+id/myerror_back"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button" 
+            android:textColor="#FFFFFF"
+            android:text="返回"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    android:id="@+id/layout_bottom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/myerror_notitle">
+        
+        
+        <TextView
+            android:id="@+id/noerror_text"
+            style="@style/topic_select"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6b6b6b"
+            android:textSize="16.67dp"/>
+        
+       
+         <Button
+	        android:id="@+id/study_button"
+	        android:layout_width="170dip"
+	        android:layout_height="35dip"
+	        android:layout_marginTop="65dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@id/noerror_text"
+	        android:background="@drawable/blue_button"
+	        android:textColor="#FFFFFF"
+	        android:textSize="16.67dp"
+	        android:text="章节练习" />
+
+	    <Button
+	        android:id="@+id/exam_button"
+	        android:layout_width="170dip"
+	        android:layout_height="35dip"
+	        android:background="@drawable/blue_button"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/study_button"
+	        android:layout_marginTop="25dp"
+	        android:textColor="#FFFFFF"
+	        android:textSize="16.67dp"
+	        android:text="交规模拟" /> 
+        
+    </RelativeLayout>
+    
+</LinearLayout>

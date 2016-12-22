@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#F2F5F8" >
+    
+    <RelativeLayout
+        android:id="@+id/myerror_notitle_n"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/logo">
+
+        <Button
+            android:id="@+id/noexam_back"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button"
+            android:textColor="#FFFFFF"
+            android:text="返回"/>
+        
+    </RelativeLayout>
+      
+    <RelativeLayout
+	    android:id="@+id/layout_bottom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+        
+        
+        <TextView
+            android:id="@+id/noexam_text"
+            style="@style/topic_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/noexam"
+            android:textColor="#4b4b4b"
+            android:textSize="16.67dp"/>
+         
+       
+
+	    <Button
+	        android:id="@+id/exam_button_n" 
+	        android:layout_width="170dip"
+	        android:layout_height="40dip"
+	        android:background="@drawable/blue_button"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@+id/noexam_text"
+	        android:layout_marginTop="25dp"
+	        android:textColor="#FFFFFF"
+	        android:textSize="16.67dp"
+	        android:text="交规模拟考试" />
+        
+    </RelativeLayout>
+    
+</LinearLayout>

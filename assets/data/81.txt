@@ -1,0 +1,1 @@
+{"analyse":"人行横道禁止停车。","answer":"D","area":"","id":81,"img":"","question":"机动车在人行横道______。<BR>A、可以临时停车<BR>B、可以随意停车<BR>C、可以长时间停车<BR>D、不得停车","status":1,"subId":"1.2.1","subName":"交通安全法实施条例-选择题","topId":"1","topName":"道路交通安全法律、法规和规章(185题)","type":1,"unknow":"","year":2010}

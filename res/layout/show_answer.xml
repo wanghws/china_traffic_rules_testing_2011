@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+
+    <ImageView
+        android:id="@+id/select_button"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        />
+   <!-- <TextView
+        android:id="@+id/answerTip"
+        style="@style/subject_title"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dip" /> -->
+ 
+     <TextView
+        android:id="@+id/answerTitle"
+        style="@style/answer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dip" />
+
+      <ImageView
+        android:id="@+id/line_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/answerTitle"
+        android:src="@drawable/line"/>  
+
+    <!-- <ImageView
+        android:id="@+id/answerItemImage"
+        android:layout_width="10dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/answerTip"
+        android:paddingTop="16dip" />
+ -->
+</RelativeLayout>

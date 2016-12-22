@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">交规考试</string>
+    <string name="menu_title">交规考试系统</string>
+    <string name="menu_chaper">章节练习</string>
+    <string name="menu_real">模拟考试</string>
+    <string name="menu_error">错题解析</string>
+    <string name="menu_history">历史成绩</string>
+    <string name="menu_more">更多</string>
+    
+    <string name="menu_fankui">您的反馈将使软件更加好用！</string> 
+    <string name="fankui">反馈</string> 
+    <string name="menu_share">通过短信或微博分享好友. </string> 
+    <string name="share">分享</string> 
+    <string name="about">关于</string> 
+    <string name="hotApp">推荐</string> 
+    <string name="back">返回</string> 
+
+    <!-- topic -->
+    <string name="topic_select">章节练习</string>
+    <string name="subject_select">选择小节</string>
+    <string name="subject_jiexi">试题解析</string>
+    <string name="setting">设置</string>
+    <string name="noexam">你好\n你没有答过交规模拟考试，请进入</string>
+    <string-array name="share_item">
+        <item>分享到新浪微博</item>
+        <item>分享到腾讯微博</item>
+    </string-array>
+</resources>

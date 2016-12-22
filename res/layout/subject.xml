@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo" >
+        <Button
+            android:id="@+id/exam_back"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button"
+            android:textColor="#FFFFFF"
+            android:text="返回">
+        </Button>
+
+        <TextView
+            android:id="@+id/subjectTitle"
+	    	android:textSize="22dp"
+            android:layout_width="90dp"
+            android:layout_height="30dip"
+            android:textColor="#ffffff"
+            android:layout_alignBaseline="@+id/exam_back"
+            android:layout_alignBottom="@+id/exam_back"
+            android:layout_centerHorizontal="true"
+            android:text="@string/subject_select" />
+    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/layout_bottom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/layout_top" >
+	    <ListView
+	        android:id="@+id/topicListView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/list_item2"
+	        android:cacheColorHint="#00000000"
+	        android:drawSelectorOnTop="false"
+	        android:listSelector="@drawable/banner" >
+	    </ListView>
+	</RelativeLayout>
+</RelativeLayout> 

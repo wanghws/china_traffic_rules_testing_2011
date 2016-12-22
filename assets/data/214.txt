@@ -1,0 +1,1 @@
+{"analyse":"提醒驾驶员前方渡口，图标里是一辆车子在轮渡上。","answer":"A","area":"","id":214,"img":"201105001321261304836.gif","question":"图中标志的含义是______。<BR>A、渡口    <BR>B、堤坝路    <BR>C、驼峰桥<BR>D、漫水桥","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"3_11.gif","year":2010}

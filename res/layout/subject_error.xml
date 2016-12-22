@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo" >
+
+        <!-- <TextView
+            android:id="@+id/subject_title"
+            style="@style/subject_exam_title"
+            android:layout_width="330dip"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:paddingTop="2dip"
+            android:textColor="#ffffff" /> -->
+
+        <Button
+            android:id="@+id/exam_back"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button" 
+            android:textColor="#FFFFFF"
+            android:text="返回"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/topic_select"
+            android:layout_width="90dp"
+            android:layout_height="30dip"
+            android:layout_alignBaseline="@+id/exam_back"
+            android:layout_alignBottom="@+id/exam_back"
+            android:layout_centerHorizontal="true"
+            android:textSize="22dp"
+            android:text="我的错题" />
+
+        <Button
+            android:id="@+id/exam_restart"
+            android:layout_width="75dip"
+            android:layout_height="35dip"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginRight="5dp"
+            
+            android:layout_alignParentRight="true"
+            android:background="@drawable/blue_button"
+            android:textColor="#FFFFFF"
+            android:text="重新答题" />
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/layout_bottom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="25dip"
+	    android:layout_alignParentBottom="true" >
+
+        <com.jiaogui.androidexam.ui.ExamProgressBar
+            android:id="@+id/exam_progress"
+            style="@style/ProgressBar_Mini"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:progress="0" />
+    </RelativeLayout>
+        <ViewFlipper
+            android:id="@+id/examViewFlipper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_bottom"
+            android:layout_below="@+id/layout_top" >
+	        <ScrollView 
+        	    	android:id="@+id/content_scroll_view"
+				    android:layout_width="fill_parent"
+	            	android:layout_height="wrap_content"
+	            	android:scrollbars="vertical">
+	        <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" >
+	            <TextView
+	                android:id="@+id/exam_question"
+	                style="@style/exam_question"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_alignParentTop="true"
+	                android:paddingBottom="15dip" 
+	                android:paddingTop="15dip" />
+	
+	            <ImageView
+	                android:id="@+id/exam_image"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingTop="5dip"
+	                android:layout_marginBottom="25dp"
+	                android:layout_below="@id/exam_question"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true" />
+	            <ImageView
+                    android:id="@+id/line_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/exam_image"
+                    android:src="@drawable/line"/>  
+	            
+	            <LinearLayout
+				    android:id="@+id/answerListView"
+			    	android:gravity="center_horizontal"
+			    	android:orientation="vertical"
+			    	android:layout_width="fill_parent"
+			    	android:layout_height="fill_parent"
+			    	android:layout_below="@id/line_image"
+			    	android:cacheColorHint="#00000000"
+	                android:clickable="false"
+	                android:scrollbars="none"
+	                android:layout_centerHorizontal="true"/>
+	            
+	      <LinearLayout
+		    android:id="@+id/jiexi"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_below="@id/answerListView">
+				<ImageView 
+				     android:id="@+id/light"
+				     android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:layout_marginLeft="7dp"
+	                 android:layout_marginTop="4dp"
+				     android:src="@drawable/light"
+				    />
+				<TextView
+				    android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingTop="4dp"
+	                android:paddingLeft="4dp"
+	                android:textColor="#a7996d"
+	                android:textSize="16.67dp"
+	                android:text="@string/subject_jiexi"/>
+		</LinearLayout>
+	            <TextView
+	                android:id="@+id/exam_suggest"
+	                style="@style/exam_question"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_alignLeft="@id/answerListView"
+	                android:layout_alignRight="@id/answerListView"
+	                android:layout_centerHorizontal="true"
+	                android:layout_below="@+id/jiexi"
+	                android:paddingTop="4dp"
+	                android:paddingLeft="4dp"
+	                android:paddingRight="4dp"
+	                android:background="@layout/list_view_shape"
+	                android:drawSelectorOnTop="false" />
+	        </RelativeLayout>
+	        </ScrollView>
+        </ViewFlipper>
+</RelativeLayout>

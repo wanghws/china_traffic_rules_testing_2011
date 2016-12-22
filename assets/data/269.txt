@@ -1,0 +1,1 @@
+{"analyse":"该图标是此路不通标志，“T”型路口标志是三角形黄色标志。","answer":"B","area":"","id":269,"img":"201105002235526304688.gif","question":"图中标志的含义是______。<BR>A、“T”型路口<BR>B、此路不通<BR>C、交叉路口<BR>D、停车场","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"hb_38.gif","year":2010}

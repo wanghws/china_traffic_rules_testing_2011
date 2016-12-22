@@ -1,0 +1,1 @@
+{"analyse":"提醒驾驶员前方有隧道。","answer":"C","area":"","id":219,"img":"201105002213115304826.gif","question":"图中标志的含义是______。<BR>A、驼峰路     <BR>B、房屋     <BR>C、隧道<BR>D、村庄","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"3_17.gif","year":2010}

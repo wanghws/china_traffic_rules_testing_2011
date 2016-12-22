@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F5F8" >
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo" >
+
+        <Button
+            android:id="@+id/exam_back"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_button" 
+            android:textColor="#FFFFFF"
+            android:text="返回"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="70dp"
+            android:layout_height="30dip"
+            android:layout_marginLeft="80dp"
+            android:paddingTop="4dp"
+            android:textSize="16.67dp"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:text="模拟考试" />
+
+        <TextView
+            android:id="@+id/exam_time"
+            style="@style/exam_time"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="8.5dp"
+            android:textSize="25dp"
+            android:paddingLeft="5dp"
+            android:textColor="#ffff99"
+            android:text="45:00"
+            />
+        <Button
+            android:id="@+id/exam_submit"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/exam_back"
+            android:background="@drawable/blue_button"
+            android:textColor="#FFFFFF"
+            android:text="开始" />
+
+        
+
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/layout_bottom"
+	    android:layout_width="fill_parent"
+	    android:layout_height="25dip"
+	    android:layout_alignParentBottom="true" >
+
+        <com.jiaogui.androidexam.ui.ExamProgressBar
+            android:id="@+id/exam_progress"
+            style="@style/ProgressBar_Mini"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:max="100"
+            android:progress="0" />
+    </RelativeLayout>
+        <ViewFlipper
+            android:id="@+id/examViewFlipper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layout_bottom"
+            android:layout_below="@id/layout_top" >
+        
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent">
+	            <TextView
+	                android:id="@+id/exam_question"
+	                style="@style/exam_question"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginRight="10dp"
+	                android:layout_alignParentTop="true"
+	                android:paddingBottom="15dip" 
+	                android:paddingTop="15dip"/>
+	
+	            <ImageView
+	                android:id="@+id/exam_image"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingTop="5dip"
+	                android:paddingBottom="15dip"
+	                android:layout_centerHorizontal="true"
+	                android:layout_below="@+id/exam_question"
+	                android:layout_centerVertical="true" />
+	            <ImageView
+                    android:id="@+id/line_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/exam_image"
+                    android:src="@drawable/line"/>  
+	            <!-- android:layout_alignLeft="@id/answerListView"
+	                android:layout_alignRight="@id/answerListView" -->
+	            <ListView
+	                android:id="@+id/answerListView"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@id/exam_image"
+	                android:layout_centerHorizontal="true"
+	                android:cacheColorHint="#00000000"
+	                android:divider="@null"
+	                android:fadingEdge="none" 
+	                android:drawSelectorOnTop="false"
+	                android:listSelector="@drawable/banner" >
+	                <!-- android:background="@layout/list_view_shape"  android:layout_marginTop="10dip" -->
+	            </ListView>
+	        </RelativeLayout>
+            
+            
+            
+        </ViewFlipper>
+</RelativeLayout>

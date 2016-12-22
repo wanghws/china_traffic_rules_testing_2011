@@ -1,0 +1,1 @@
+{"analyse":"图中为左转弯待转手势","answer":"A","area":"","id":332,"img":"201105002132510304304.gif","question":"图中警察手势为______信号。<BR>A.左转弯待转<BR>B.左转弯<BR>C.减速慢行<BR>D.右转弯<BR>","status":1,"subId":"2.4.1","subName":"交通警察手势信号-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"09_2.4.1.4.gif","year":2010}

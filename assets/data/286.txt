@@ -1,0 +1,1 @@
+{"analyse":"该图标是主干路先行标志。","answer":"错","area":"","id":286,"img":"201105011220076304638.gif","question":"图中是支路先行标志。","status":1,"subId":"2.2.2","subName":"交通标志-判断题","topId":"2","topName":"交通信号及其含义(158题)","type":2,"unknow":"4_31.gif","year":2010}

@@ -1,0 +1,1 @@
+{"analyse":"“P”挡是停车挡。","answer":"对","area":"","id":356,"img":"","question":"自动挡汽车变速器操纵杆在P挡以外的位置不能拔下钥匙。","status":1,"subId":"3.1.2","subName":"安全操作要领-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

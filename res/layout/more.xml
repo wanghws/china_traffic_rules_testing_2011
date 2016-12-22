@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-9dp"
+        android:src="@drawable/logo" />
+    <Button 
+        android:id="@+id/more_back"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/back_button"
+        android:textColor="#FFFFFF"
+        android:text="返回"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:text="@string/menu_more"
+        android:textSize="20dp" />
+    
+    <Button 
+        android:id="@+id/more_fankui"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="46dp"
+        android:textColor="#7F8F93"
+        android:background="@drawable/more_button"
+        android:text="@string/menu_fankui"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="@string/fankui"
+        />
+    
+    <Button 
+        android:id="@+id/more_share"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="90dp"
+        android:textColor="#7F8F93"
+        android:background="@drawable/more_button"
+        android:text="通过短信或微博分享好友.       "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="@string/share"
+        />
+	<!-- App推荐 -->
+    <Button 
+        android:id="@+id/more_app"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="134dp"
+        android:textColor="#7F8F93"
+        android:background="@drawable/more_button"
+        android:text="热门App应用推荐.                     "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="@string/hotApp"
+        />
+    <!-- App推荐 -->
+    <Button 
+        android:id="@+id/more_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+         android:layout_marginTop="178dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/more_button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="187dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="@string/setting"
+        />
+    <Button 
+        android:id="@+id/more_about"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="222dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/more_button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="231dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="@string/about"
+        />
+</RelativeLayout>

@@ -1,0 +1,1 @@
+{"analyse":"禁止所有车辆和行人通过本车道。","answer":"对","area":"","id":278,"img":"201105000010337304681.gif","question":"图中是禁止车辆、行人通行标志。","status":1,"subId":"2.2.2","subName":"交通标志-判断题","topId":"2","topName":"交通信号及其含义(158题)","type":2,"unknow":"4_14.gif","year":2010}

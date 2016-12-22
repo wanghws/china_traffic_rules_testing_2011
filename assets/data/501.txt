@@ -1,0 +1,1 @@
+{"analyse":"停车场才是长时停放车辆的地点。","answer":"对","area":"","id":501,"img":"","question":"车辆长时间停放时，应选择停车场停车。","status":1,"subId":"3.4.2","subName":"安全驾驶行为-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

@@ -1,0 +1,1 @@
+{"analyse":"图标里白色表示车道","answer":"A","area":"","id":271,"img":"201105000045320304683.gif","question":"图中标志的含义是______。<BR>A、左侧通行<BR>B、右侧通行<BR>C、两侧通行<BR>D、禁止通行","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"hb_24.gif","year":2010}

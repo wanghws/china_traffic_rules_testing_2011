@@ -1,0 +1,1 @@
+{"analyse":"机动车强制保险每年都需要参保的。","answer":"A","area":"","id":178,"img":"","question":"机动车交通事故责任强制保险的保险期间为______。<BR>A、1年<BR>B、2年<BR>C、3年<BR>D、4年<BR>","status":1,"subId":"1.8.1","subName":"机动车交通事故强制保险条例-选择题","topId":"1","topName":"道路交通安全法律、法规和规章(185题)","type":1,"unknow":"","year":2010}

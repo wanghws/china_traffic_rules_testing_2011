@@ -1,0 +1,1 @@
+{"analyse":"提醒驾驶员前方路段有积水，注意减速行驶。","answer":"A","area":"","id":217,"img":"201105001233647304831.gif","question":"图中标志的含义是______。<BR>A、过水路面   <BR>B、注意溅水    <BR>C、易滑  <BR>D、驼峰桥","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"3_14.gif","year":2010}

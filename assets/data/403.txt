@@ -1,0 +1,1 @@
+{"analyse":"穿高跟鞋驾车影响安全。","answer":"对","area":"","id":403,"img":"","question":"女驾驶人穿高跟鞋驾驶车辆，不利于安全行车。","status":1,"subId":"3.3.2","subName":"文明驾驶-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

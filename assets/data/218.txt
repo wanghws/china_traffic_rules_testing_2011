@@ -1,0 +1,1 @@
+{"analyse":"图标里是车辆容易打滑的痕迹。","answer":"B","area":"","id":218,"img":"201105010100415304829.gif","question":"图中标志的含义是______。<BR>A、堤坝路    <BR>B、易滑      <BR>C、急转弯<BR>D、傍山险路","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"3_16.gif","year":2010}

@@ -1,0 +1,1 @@
+{"analyse":"驾车时吸烟容易分散注意力，影响安全。","answer":"错","area":"","id":405,"img":"","question":"驾驶人一边驾车，一边吸烟对安全行车无影响。","status":1,"subId":"3.3.2","subName":"文明驾驶-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

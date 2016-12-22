@@ -1,0 +1,1 @@
+{"analyse":"提醒驾驶员该路段左右都可以绕行。","answer":"B","area":"","id":232,"img":"201105010012277304812.gif","question":"图中标志的含义是______。<BR>A、左侧绕行<BR>B、左右绕行<BR>C、右侧绕行<BR>D、禁止绕行","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"hb_11.gif","year":2010}

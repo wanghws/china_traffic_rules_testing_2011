@@ -1,0 +1,1 @@
+{"analyse":"提醒驾驶员该路段复杂，注意危险。","answer":"D","area":"","id":220,"img":"201105012334450304823.gif","question":"图中标志的含义是______。<BR>A、前方事故   <BR>B、禁行     <BR>C、停车<BR>D、注意危险","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"3_18.gif","year":2010}

@@ -1,0 +1,1 @@
+{"analyse":"红灯亮是禁止通行，绿灯亮是准许通行。","answer":"对","area":"","id":195,"img":"","question":"红色箭头灯亮时，本车道禁止车辆通行。","status":1,"subId":"2.1.2","subName":"交通信号灯-判断题","topId":"2","topName":"交通信号及其含义(158题)","type":2,"unknow":"","year":2010}

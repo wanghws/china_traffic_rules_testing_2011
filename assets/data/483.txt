@@ -1,0 +1,1 @@
+{"analyse":"驾驶车辆时要做到礼让三先。","answer":"错","area":"","id":483,"img":"","question":"当行人出现交通违法行为时，车辆可以不给行人让行。","status":1,"subId":"3.4.2","subName":"安全驾驶行为-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

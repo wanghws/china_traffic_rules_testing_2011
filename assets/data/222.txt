@@ -1,0 +1,1 @@
+{"analyse":"接连两个以上的弯道叫连续弯路。","answer":"B","area":"","id":222,"img":"201105000332506304818.gif","question":"图中标志的含义是______。<BR>A、急弯路 <BR>B、连续弯路 <BR>C、曲线行驶<BR>D、禁止转弯","status":1,"subId":"2.2.1","subName":"交通标志-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"3_20.gif","year":2010}

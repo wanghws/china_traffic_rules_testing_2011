@@ -1,0 +1,1 @@
+{"analyse":"“L”挡是陡坡挡、“2”挡是缓坡挡。","answer":"对","area":"","id":354,"img":"","question":"自动挡汽车在陡坡行驶时使用“L”挡。","status":1,"subId":"3.1.2","subName":"安全操作要领-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

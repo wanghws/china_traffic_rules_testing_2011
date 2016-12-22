@@ -1,0 +1,1 @@
+{"analyse":"年满60岁驾驶员可持C1、C2、C5驾照，年满70岁驾驶员只能持有F照（轻便摩托车）。","answer":"D","area":"","id":154,"img":"","question":"年满70周岁，只能持有____准驾的驾驶证。<BR>A、C2<BR>B、E<BR>C、D<BR>D、F","status":1,"subId":"1.6.1","subName":"机动车驾驶证申领和使用规定-选择题","topId":"1","topName":"道路交通安全法律、法规和规章(185题)","type":1,"unknow":"","year":2010}

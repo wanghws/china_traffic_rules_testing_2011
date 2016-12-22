@@ -1,0 +1,1 @@
+{"analyse":"进环岛不用开转向灯，出环岛用右转向灯。","answer":"C","area":"","id":427,"img":"","question":"驾驶车辆驶出环岛前，应开启______。<BR>A、左转向灯<BR>B、危险报警闪光灯<BR>C、右转向灯<BR>D、远光灯","status":1,"subId":"3.4.1","subName":"安全驾驶行为-选择题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":1,"unknow":"","year":2010}

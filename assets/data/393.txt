@@ -1,0 +1,1 @@
+{"analyse":"驾驶车辆严禁超速行驶。","answer":"对","area":"","id":393,"img":"","question":"驾驶车辆在道路上行驶时，车速应当按照规定的速度安全行驶。","status":1,"subId":"3.3.2","subName":"文明驾驶-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

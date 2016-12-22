@@ -1,0 +1,1 @@
+{"analyse":"严禁驾驶报废车和拼装车上路。","answer":"B","area":"","id":3,"img":"","question":"已达到报废标准的机动车______上道路行驶。<BR>A、允许临时<BR>B、不得<BR>C、经维修后可以<BR>D、缴管理费后可以<BR>","status":1,"subId":"1.1.1","subName":"道路交通安全法-选择题","topId":"1","topName":"道路交通安全法律、法规和规章(185题)","type":1,"unknow":"","year":2010}

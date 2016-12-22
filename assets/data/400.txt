@@ -1,0 +1,1 @@
+{"analyse":"通过窗户吐痰是不文明的行为。","answer":"错","area":"","id":400,"img":"","question":"驾驶人在行车中吐痰时，可通过车窗吐到道路或街道上。","status":1,"subId":"3.3.2","subName":"文明驾驶-判断题","topId":"3","topName":"安全行车、文明驾驶知识(159题)","type":2,"unknow":"","year":2010}

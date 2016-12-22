@@ -1,0 +1,1 @@
+{"analyse":"图中为直行手势","answer":"A","area":"","id":330,"img":"201105010023155304345.gif","question":"图中交通警察的手势为______信号。<BR>A.直行<BR>B.转弯<BR>C.停止<BR>D.示意车辆靠边停车<BR>","status":1,"subId":"2.4.1","subName":"交通警察手势信号-选择题","topId":"2","topName":"交通信号及其含义(158题)","type":1,"unknow":"09_2.4.1.2.gif","year":2010}

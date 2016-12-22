@@ -1,0 +1,1 @@
+{"analyse":"该图标是左侧绕行标志，禁令标志是红色的图标。","answer":"错","area":"","id":277,"img":"201105012120118304653.gif","question":"图中是禁止左侧绕行标志。","status":1,"subId":"2.2.2","subName":"交通标志-判断题","topId":"2","topName":"交通信号及其含义(158题)","type":2,"unknow":"hb_41.gif","year":2010}
